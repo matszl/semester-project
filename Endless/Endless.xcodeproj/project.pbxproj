@@ -7,70 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF3947DA203813AF0018CD00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3947D9203813AF0018CD00 /* AppDelegate.swift */; };
-		DF3947DC203813AF0018CD00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3947DB203813AF0018CD00 /* ViewController.swift */; };
-		DF3947DF203813AF0018CD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3947DD203813AF0018CD00 /* Main.storyboard */; };
-		DF3947E2203813AF0018CD00 /* Endless.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3947E0203813AF0018CD00 /* Endless.xcdatamodeld */; };
-		DF3947E4203813AF0018CD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3947E3203813AF0018CD00 /* Assets.xcassets */; };
-		DF3947E7203813AF0018CD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3947E5203813AF0018CD00 /* LaunchScreen.storyboard */; };
-		DF3947F2203813B00018CD00 /* EndlessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3947F1203813B00018CD00 /* EndlessTests.swift */; };
-		DF3947FD203813B00018CD00 /* EndlessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3947FC203813B00018CD00 /* EndlessUITests.swift */; };
-		DF39480C2038165E0018CD00 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39480B2038165E0018CD00 /* GameCenterManager.swift */; };
-		DF39480E203817240018CD00 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39480D203817240018CD00 /* Constants.swift */; };
+		DF24672120381F2D002728B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24672020381F2D002728B4 /* AppDelegate.swift */; };
+		DF24672320381F2D002728B4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF24672220381F2D002728B4 /* art.scnassets */; };
+		DF24672520381F2D002728B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24672420381F2D002728B4 /* GameViewController.swift */; };
+		DF24672820381F2D002728B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF24672620381F2D002728B4 /* Main.storyboard */; };
+		DF24672A20381F2D002728B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF24672920381F2D002728B4 /* Assets.xcassets */; };
+		DF24672D20381F2D002728B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF24672B20381F2D002728B4 /* LaunchScreen.storyboard */; };
+		DF24673820381F2D002728B4 /* EndlessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24673720381F2D002728B4 /* EndlessTests.swift */; };
+		DF24674320381F2D002728B4 /* EndlessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24674220381F2D002728B4 /* EndlessUITests.swift */; };
+		DF24675320381F41002728B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24675120381F41002728B4 /* Constants.swift */; };
+		DF24675420381F41002728B4 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24675220381F41002728B4 /* GameCenterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF3947EE203813B00018CD00 /* PBXContainerItemProxy */ = {
+		DF24673420381F2D002728B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF3947CE203813AF0018CD00 /* Project object */;
+			containerPortal = DF24671520381F2D002728B4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF3947D5203813AF0018CD00;
+			remoteGlobalIDString = DF24671C20381F2D002728B4;
 			remoteInfo = Endless;
 		};
-		DF3947F9203813B00018CD00 /* PBXContainerItemProxy */ = {
+		DF24673F20381F2D002728B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF3947CE203813AF0018CD00 /* Project object */;
+			containerPortal = DF24671520381F2D002728B4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF3947D5203813AF0018CD00;
+			remoteGlobalIDString = DF24671C20381F2D002728B4;
 			remoteInfo = Endless;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF3947D6203813AF0018CD00 /* Endless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endless.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3947D9203813AF0018CD00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF3947DB203813AF0018CD00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF3947DE203813AF0018CD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF3947E1203813AF0018CD00 /* Endless.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Endless.xcdatamodel; sourceTree = "<group>"; };
-		DF3947E3203813AF0018CD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF3947E6203813AF0018CD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF3947E8203813AF0018CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF3947ED203813B00018CD00 /* EndlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3947F1203813B00018CD00 /* EndlessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessTests.swift; sourceTree = "<group>"; };
-		DF3947F3203813B00018CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF3947F8203813B00018CD00 /* EndlessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3947FC203813B00018CD00 /* EndlessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessUITests.swift; sourceTree = "<group>"; };
-		DF3947FE203813B00018CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF39480B2038165E0018CD00 /* GameCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
-		DF39480D203817240018CD00 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF24671D20381F2D002728B4 /* Endless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF24672020381F2D002728B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF24672220381F2D002728B4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DF24672420381F2D002728B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DF24672720381F2D002728B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF24672920381F2D002728B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF24672C20381F2D002728B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF24672E20381F2D002728B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF24673320381F2D002728B4 /* EndlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF24673720381F2D002728B4 /* EndlessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessTests.swift; sourceTree = "<group>"; };
+		DF24673920381F2D002728B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF24673E20381F2D002728B4 /* EndlessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF24674220381F2D002728B4 /* EndlessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessUITests.swift; sourceTree = "<group>"; };
+		DF24674420381F2D002728B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF24675120381F41002728B4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF24675220381F41002728B4 /* GameCenterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF3947D3203813AF0018CD00 /* Frameworks */ = {
+		DF24671A20381F2D002728B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3947EA203813B00018CD00 /* Frameworks */ = {
+		DF24673020381F2D002728B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3947F5203813B00018CD00 /* Frameworks */ = {
+		DF24673B20381F2D002728B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,64 +80,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF3947CD203813AF0018CD00 = {
+		DF24671420381F2D002728B4 = {
 			isa = PBXGroup;
 			children = (
-				DF3947D8203813AF0018CD00 /* Endless */,
-				DF3947F0203813B00018CD00 /* EndlessTests */,
-				DF3947FB203813B00018CD00 /* EndlessUITests */,
-				DF3947D7203813AF0018CD00 /* Products */,
+				DF24671F20381F2D002728B4 /* Endless */,
+				DF24673620381F2D002728B4 /* EndlessTests */,
+				DF24674120381F2D002728B4 /* EndlessUITests */,
+				DF24671E20381F2D002728B4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF3947D7203813AF0018CD00 /* Products */ = {
+		DF24671E20381F2D002728B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF3947D6203813AF0018CD00 /* Endless.app */,
-				DF3947ED203813B00018CD00 /* EndlessTests.xctest */,
-				DF3947F8203813B00018CD00 /* EndlessUITests.xctest */,
+				DF24671D20381F2D002728B4 /* Endless.app */,
+				DF24673320381F2D002728B4 /* EndlessTests.xctest */,
+				DF24673E20381F2D002728B4 /* EndlessUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF3947D8203813AF0018CD00 /* Endless */ = {
+		DF24671F20381F2D002728B4 /* Endless */ = {
 			isa = PBXGroup;
 			children = (
-				DF39480A203816370018CD00 /* Managers */,
-				DF3947D9203813AF0018CD00 /* AppDelegate.swift */,
-				DF3947DB203813AF0018CD00 /* ViewController.swift */,
-				DF3947DD203813AF0018CD00 /* Main.storyboard */,
-				DF3947E3203813AF0018CD00 /* Assets.xcassets */,
-				DF3947E5203813AF0018CD00 /* LaunchScreen.storyboard */,
-				DF3947E8203813AF0018CD00 /* Info.plist */,
-				DF3947E0203813AF0018CD00 /* Endless.xcdatamodeld */,
+				DF24675020381F41002728B4 /* Managers */,
+				DF24672020381F2D002728B4 /* AppDelegate.swift */,
+				DF24672220381F2D002728B4 /* art.scnassets */,
+				DF24672420381F2D002728B4 /* GameViewController.swift */,
+				DF24672620381F2D002728B4 /* Main.storyboard */,
+				DF24672920381F2D002728B4 /* Assets.xcassets */,
+				DF24672B20381F2D002728B4 /* LaunchScreen.storyboard */,
+				DF24672E20381F2D002728B4 /* Info.plist */,
 			);
 			path = Endless;
 			sourceTree = "<group>";
 		};
-		DF3947F0203813B00018CD00 /* EndlessTests */ = {
+		DF24673620381F2D002728B4 /* EndlessTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF3947F1203813B00018CD00 /* EndlessTests.swift */,
-				DF3947F3203813B00018CD00 /* Info.plist */,
+				DF24673720381F2D002728B4 /* EndlessTests.swift */,
+				DF24673920381F2D002728B4 /* Info.plist */,
 			);
 			path = EndlessTests;
 			sourceTree = "<group>";
 		};
-		DF3947FB203813B00018CD00 /* EndlessUITests */ = {
+		DF24674120381F2D002728B4 /* EndlessUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DF3947FC203813B00018CD00 /* EndlessUITests.swift */,
-				DF3947FE203813B00018CD00 /* Info.plist */,
+				DF24674220381F2D002728B4 /* EndlessUITests.swift */,
+				DF24674420381F2D002728B4 /* Info.plist */,
 			);
 			path = EndlessUITests;
 			sourceTree = "<group>";
 		};
-		DF39480A203816370018CD00 /* Managers */ = {
+		DF24675020381F41002728B4 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				DF39480B2038165E0018CD00 /* GameCenterManager.swift */,
-				DF39480D203817240018CD00 /* Constants.swift */,
+				DF24675120381F41002728B4 /* Constants.swift */,
+				DF24675220381F41002728B4 /* GameCenterManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -145,13 +145,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF3947D5203813AF0018CD00 /* Endless */ = {
+		DF24671C20381F2D002728B4 /* Endless */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF394801203813B00018CD00 /* Build configuration list for PBXNativeTarget "Endless" */;
+			buildConfigurationList = DF24674720381F2D002728B4 /* Build configuration list for PBXNativeTarget "Endless" */;
 			buildPhases = (
-				DF3947D2203813AF0018CD00 /* Sources */,
-				DF3947D3203813AF0018CD00 /* Frameworks */,
-				DF3947D4203813AF0018CD00 /* Resources */,
+				DF24671920381F2D002728B4 /* Sources */,
+				DF24671A20381F2D002728B4 /* Frameworks */,
+				DF24671B20381F2D002728B4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,72 +159,72 @@
 			);
 			name = Endless;
 			productName = Endless;
-			productReference = DF3947D6203813AF0018CD00 /* Endless.app */;
+			productReference = DF24671D20381F2D002728B4 /* Endless.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF3947EC203813B00018CD00 /* EndlessTests */ = {
+		DF24673220381F2D002728B4 /* EndlessTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF394804203813B00018CD00 /* Build configuration list for PBXNativeTarget "EndlessTests" */;
+			buildConfigurationList = DF24674A20381F2D002728B4 /* Build configuration list for PBXNativeTarget "EndlessTests" */;
 			buildPhases = (
-				DF3947E9203813B00018CD00 /* Sources */,
-				DF3947EA203813B00018CD00 /* Frameworks */,
-				DF3947EB203813B00018CD00 /* Resources */,
+				DF24672F20381F2D002728B4 /* Sources */,
+				DF24673020381F2D002728B4 /* Frameworks */,
+				DF24673120381F2D002728B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF3947EF203813B00018CD00 /* PBXTargetDependency */,
+				DF24673520381F2D002728B4 /* PBXTargetDependency */,
 			);
 			name = EndlessTests;
 			productName = EndlessTests;
-			productReference = DF3947ED203813B00018CD00 /* EndlessTests.xctest */;
+			productReference = DF24673320381F2D002728B4 /* EndlessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DF3947F7203813B00018CD00 /* EndlessUITests */ = {
+		DF24673D20381F2D002728B4 /* EndlessUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF394807203813B00018CD00 /* Build configuration list for PBXNativeTarget "EndlessUITests" */;
+			buildConfigurationList = DF24674D20381F2D002728B4 /* Build configuration list for PBXNativeTarget "EndlessUITests" */;
 			buildPhases = (
-				DF3947F4203813B00018CD00 /* Sources */,
-				DF3947F5203813B00018CD00 /* Frameworks */,
-				DF3947F6203813B00018CD00 /* Resources */,
+				DF24673A20381F2D002728B4 /* Sources */,
+				DF24673B20381F2D002728B4 /* Frameworks */,
+				DF24673C20381F2D002728B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF3947FA203813B00018CD00 /* PBXTargetDependency */,
+				DF24674020381F2D002728B4 /* PBXTargetDependency */,
 			);
 			name = EndlessUITests;
 			productName = EndlessUITests;
-			productReference = DF3947F8203813B00018CD00 /* EndlessUITests.xctest */;
+			productReference = DF24673E20381F2D002728B4 /* EndlessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF3947CE203813AF0018CD00 /* Project object */ = {
+		DF24671520381F2D002728B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = mateszlanka;
 				TargetAttributes = {
-					DF3947D5203813AF0018CD00 = {
+					DF24671C20381F2D002728B4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					DF3947EC203813B00018CD00 = {
+					DF24673220381F2D002728B4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DF3947D5203813AF0018CD00;
+						TestTargetID = DF24671C20381F2D002728B4;
 					};
-					DF3947F7203813B00018CD00 = {
+					DF24673D20381F2D002728B4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DF3947D5203813AF0018CD00;
+						TestTargetID = DF24671C20381F2D002728B4;
 					};
 				};
 			};
-			buildConfigurationList = DF3947D1203813AF0018CD00 /* Build configuration list for PBXProject "Endless" */;
+			buildConfigurationList = DF24671820381F2D002728B4 /* Build configuration list for PBXProject "Endless" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,37 +232,38 @@
 				en,
 				Base,
 			);
-			mainGroup = DF3947CD203813AF0018CD00;
-			productRefGroup = DF3947D7203813AF0018CD00 /* Products */;
+			mainGroup = DF24671420381F2D002728B4;
+			productRefGroup = DF24671E20381F2D002728B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF3947D5203813AF0018CD00 /* Endless */,
-				DF3947EC203813B00018CD00 /* EndlessTests */,
-				DF3947F7203813B00018CD00 /* EndlessUITests */,
+				DF24671C20381F2D002728B4 /* Endless */,
+				DF24673220381F2D002728B4 /* EndlessTests */,
+				DF24673D20381F2D002728B4 /* EndlessUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF3947D4203813AF0018CD00 /* Resources */ = {
+		DF24671B20381F2D002728B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3947E7203813AF0018CD00 /* LaunchScreen.storyboard in Resources */,
-				DF3947E4203813AF0018CD00 /* Assets.xcassets in Resources */,
-				DF3947DF203813AF0018CD00 /* Main.storyboard in Resources */,
+				DF24672320381F2D002728B4 /* art.scnassets in Resources */,
+				DF24672D20381F2D002728B4 /* LaunchScreen.storyboard in Resources */,
+				DF24672A20381F2D002728B4 /* Assets.xcassets in Resources */,
+				DF24672820381F2D002728B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3947EB203813B00018CD00 /* Resources */ = {
+		DF24673120381F2D002728B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3947F6203813B00018CD00 /* Resources */ = {
+		DF24673C20381F2D002728B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,62 +273,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF3947D2203813AF0018CD00 /* Sources */ = {
+		DF24671920381F2D002728B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF39480E203817240018CD00 /* Constants.swift in Sources */,
-				DF39480C2038165E0018CD00 /* GameCenterManager.swift in Sources */,
-				DF3947E2203813AF0018CD00 /* Endless.xcdatamodeld in Sources */,
-				DF3947DC203813AF0018CD00 /* ViewController.swift in Sources */,
-				DF3947DA203813AF0018CD00 /* AppDelegate.swift in Sources */,
+				DF24675420381F41002728B4 /* GameCenterManager.swift in Sources */,
+				DF24672520381F2D002728B4 /* GameViewController.swift in Sources */,
+				DF24672120381F2D002728B4 /* AppDelegate.swift in Sources */,
+				DF24675320381F41002728B4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3947E9203813B00018CD00 /* Sources */ = {
+		DF24672F20381F2D002728B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3947F2203813B00018CD00 /* EndlessTests.swift in Sources */,
+				DF24673820381F2D002728B4 /* EndlessTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3947F4203813B00018CD00 /* Sources */ = {
+		DF24673A20381F2D002728B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3947FD203813B00018CD00 /* EndlessUITests.swift in Sources */,
+				DF24674320381F2D002728B4 /* EndlessUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF3947EF203813B00018CD00 /* PBXTargetDependency */ = {
+		DF24673520381F2D002728B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF3947D5203813AF0018CD00 /* Endless */;
-			targetProxy = DF3947EE203813B00018CD00 /* PBXContainerItemProxy */;
+			target = DF24671C20381F2D002728B4 /* Endless */;
+			targetProxy = DF24673420381F2D002728B4 /* PBXContainerItemProxy */;
 		};
-		DF3947FA203813B00018CD00 /* PBXTargetDependency */ = {
+		DF24674020381F2D002728B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF3947D5203813AF0018CD00 /* Endless */;
-			targetProxy = DF3947F9203813B00018CD00 /* PBXContainerItemProxy */;
+			target = DF24671C20381F2D002728B4 /* Endless */;
+			targetProxy = DF24673F20381F2D002728B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF3947DD203813AF0018CD00 /* Main.storyboard */ = {
+		DF24672620381F2D002728B4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF3947DE203813AF0018CD00 /* Base */,
+				DF24672720381F2D002728B4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DF3947E5203813AF0018CD00 /* LaunchScreen.storyboard */ = {
+		DF24672B20381F2D002728B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF3947E6203813AF0018CD00 /* Base */,
+				DF24672C20381F2D002728B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF3947FF203813B00018CD00 /* Debug */ = {
+		DF24674520381F2D002728B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		DF394800203813B00018CD00 /* Release */ = {
+		DF24674620381F2D002728B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,7 +442,7 @@
 			};
 			name = Release;
 		};
-		DF394802203813B00018CD00 /* Debug */ = {
+		DF24674820381F2D002728B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -457,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		DF394803203813B00018CD00 /* Release */ = {
+		DF24674920381F2D002728B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,7 +472,7 @@
 			};
 			name = Release;
 		};
-		DF394805203813B00018CD00 /* Debug */ = {
+		DF24674B20381F2D002728B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		DF394806203813B00018CD00 /* Release */ = {
+		DF24674C20381F2D002728B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,7 +506,7 @@
 			};
 			name = Release;
 		};
-		DF394808203813B00018CD00 /* Debug */ = {
+		DF24674E20381F2D002728B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,7 +522,7 @@
 			};
 			name = Debug;
 		};
-		DF394809203813B00018CD00 /* Release */ = {
+		DF24674F20381F2D002728B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,56 +541,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF3947D1203813AF0018CD00 /* Build configuration list for PBXProject "Endless" */ = {
+		DF24671820381F2D002728B4 /* Build configuration list for PBXProject "Endless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF3947FF203813B00018CD00 /* Debug */,
-				DF394800203813B00018CD00 /* Release */,
+				DF24674520381F2D002728B4 /* Debug */,
+				DF24674620381F2D002728B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF394801203813B00018CD00 /* Build configuration list for PBXNativeTarget "Endless" */ = {
+		DF24674720381F2D002728B4 /* Build configuration list for PBXNativeTarget "Endless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF394802203813B00018CD00 /* Debug */,
-				DF394803203813B00018CD00 /* Release */,
+				DF24674820381F2D002728B4 /* Debug */,
+				DF24674920381F2D002728B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF394804203813B00018CD00 /* Build configuration list for PBXNativeTarget "EndlessTests" */ = {
+		DF24674A20381F2D002728B4 /* Build configuration list for PBXNativeTarget "EndlessTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF394805203813B00018CD00 /* Debug */,
-				DF394806203813B00018CD00 /* Release */,
+				DF24674B20381F2D002728B4 /* Debug */,
+				DF24674C20381F2D002728B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF394807203813B00018CD00 /* Build configuration list for PBXNativeTarget "EndlessUITests" */ = {
+		DF24674D20381F2D002728B4 /* Build configuration list for PBXNativeTarget "EndlessUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF394808203813B00018CD00 /* Debug */,
-				DF394809203813B00018CD00 /* Release */,
+				DF24674E20381F2D002728B4 /* Debug */,
+				DF24674F20381F2D002728B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DF3947E0203813AF0018CD00 /* Endless.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DF3947E1203813AF0018CD00 /* Endless.xcdatamodel */,
-			);
-			currentVersion = DF3947E1203813AF0018CD00 /* Endless.xcdatamodel */;
-			path = Endless.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = DF3947CE203813AF0018CD00 /* Project object */;
+	rootObject = DF24671520381F2D002728B4 /* Project object */;
 }
