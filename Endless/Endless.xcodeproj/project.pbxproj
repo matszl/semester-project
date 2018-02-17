@@ -15,6 +15,8 @@
 		DF3947E7203813AF0018CD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3947E5203813AF0018CD00 /* LaunchScreen.storyboard */; };
 		DF3947F2203813B00018CD00 /* EndlessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3947F1203813B00018CD00 /* EndlessTests.swift */; };
 		DF3947FD203813B00018CD00 /* EndlessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3947FC203813B00018CD00 /* EndlessUITests.swift */; };
+		DF39480C2038165E0018CD00 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39480B2038165E0018CD00 /* GameCenterManager.swift */; };
+		DF39480E203817240018CD00 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39480D203817240018CD00 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DF3947F8203813B00018CD00 /* EndlessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3947FC203813B00018CD00 /* EndlessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessUITests.swift; sourceTree = "<group>"; };
 		DF3947FE203813B00018CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF39480B2038165E0018CD00 /* GameCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
+		DF39480D203817240018CD00 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		DF3947D8203813AF0018CD00 /* Endless */ = {
 			isa = PBXGroup;
 			children = (
+				DF39480A203816370018CD00 /* Managers */,
 				DF3947D9203813AF0018CD00 /* AppDelegate.swift */,
 				DF3947DB203813AF0018CD00 /* ViewController.swift */,
 				DF3947DD203813AF0018CD00 /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				DF3947FE203813B00018CD00 /* Info.plist */,
 			);
 			path = EndlessUITests;
+			sourceTree = "<group>";
+		};
+		DF39480A203816370018CD00 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DF39480B2038165E0018CD00 /* GameCenterManager.swift */,
+				DF39480D203817240018CD00 /* Constants.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF39480E203817240018CD00 /* Constants.swift in Sources */,
+				DF39480C2038165E0018CD00 /* GameCenterManager.swift in Sources */,
 				DF3947E2203813AF0018CD00 /* Endless.xcdatamodeld in Sources */,
 				DF3947DC203813AF0018CD00 /* ViewController.swift in Sources */,
 				DF3947DA203813AF0018CD00 /* AppDelegate.swift in Sources */,
