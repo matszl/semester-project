@@ -12,11 +12,30 @@ import SceneKit
 extension GameViewController {
     func moveGamer(to direction: UISwipeGestureRecognizerDirection) {
         self.gamePlayer.runAction(direction.actions)
+        self.updateCamera(with: direction.moveAction)
+    }
+    
+    private func updateCamera(with action: SCNAction? = nil) {
+        let duration: TimeInterval = 0.3
+        if let action = action {
+            action.duration = duration
+            self.cameraFollowNode.runAction(action)
+        }
+        else {
+            let newPosition = SCNVector3.init(x: self.gamePlayer.position.x - self.centeringHelp.x,
+                                              y: self.cameraFollowNode.position.y,
+                                              z: self.gamePlayer.position.z - self.centeringHelp.z)
+            self.cameraFollowNode.runAction(SCNAction.move(to: newPosition, duration: duration))
+        }
     }
 }
 
 extension UISwipeGestureRecognizerDirection {
     var actions: SCNAction {
+        return SCNAction.group(self.actionsNeeded)
+    }
+    
+    private var actionsNeeded: [SCNAction] {
         var actions: [SCNAction] = []
         let constants = GameConstants.shared
         switch self {
@@ -31,6 +50,10 @@ extension UISwipeGestureRecognizerDirection {
         default:
             actions = [constants.bounceAction]
         }
-        return SCNAction.group(actions)
+        return actions
+    }
+    
+    var moveAction: SCNAction? {
+        return self.actionsNeeded.last
     }
 }

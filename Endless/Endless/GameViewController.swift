@@ -18,6 +18,14 @@ class GameViewController: UIViewController {
     var gameScene: SCNScene!
     
     var gamePlayer: SCNNode!
+    var cameraFollowNode: SCNNode!
+    private lazy var initialPlayerPosition: SCNVector3 = {
+        return self.gamePlayer.position
+    }()
+    var centeringHelp: SCNVector3 {
+        return self.initialPlayerPosition
+//        return SCNVector3.init(x: 0, y: 0, z: 0)
+    }
     
     override var shouldAutorotate: Bool {
         return true
@@ -52,7 +60,6 @@ class GameViewController: UIViewController {
         self.mainSceneView.scene = self.gameScene
         
         self.gamePlayer = self.gameScene.rootNode.childNode(withName: "player", recursively: true)!
-        
-        let camera = self.gameScene.rootNode.childNode(withName: "camera", recursively: true)!
+        self.cameraFollowNode = gameScene.rootNode.childNode(withName: "FollowCamera", recursively: true)!
     }
 }
