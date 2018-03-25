@@ -14,20 +14,6 @@ extension GameViewController {
         self.gamePlayer.runAction(direction.actions)
         self.updateCamera(with: direction.moveAction)
     }
-    
-    private func updateCamera(with action: SCNAction? = nil) {
-        let duration: TimeInterval = 0.3
-        if let action = action {
-            action.duration = duration
-            self.cameraFollowNode.runAction(action)
-        }
-        else {
-            let newPosition = SCNVector3.init(x: self.gamePlayer.position.x - self.centeringHelp.x,
-                                              y: self.cameraFollowNode.position.y,
-                                              z: self.gamePlayer.position.z - self.centeringHelp.z)
-            self.cameraFollowNode.runAction(SCNAction.move(to: newPosition, duration: duration))
-        }
-    }
 }
 
 extension UISwipeGestureRecognizerDirection {

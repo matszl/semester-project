@@ -19,6 +19,7 @@
 		DF24674320381F2D002728B4 /* EndlessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24674220381F2D002728B4 /* EndlessUITests.swift */; };
 		DF24675320381F41002728B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24675120381F41002728B4 /* Constants.swift */; };
 		DF24675420381F41002728B4 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF24675220381F41002728B4 /* GameCenterManager.swift */; };
+		DFDB0AE42068024F00DCBFC2 /* GameCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDB0AE32068024F00DCBFC2 /* GameCameraManager.swift */; };
 		DFF620BF205546C9003B2E15 /* TouchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF620BE205546C9003B2E15 /* TouchManager.swift */; };
 		DFF620C12055493C003B2E15 /* GamePlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF620C02055493C003B2E15 /* GamePlayerManager.swift */; };
 		DFF620C320557DF7003B2E15 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF620C220557DF7003B2E15 /* GameConstants.swift */; };
@@ -69,6 +70,7 @@
 		DF24674420381F2D002728B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF24675120381F41002728B4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DF24675220381F41002728B4 /* GameCenterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
+		DFDB0AE32068024F00DCBFC2 /* GameCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCameraManager.swift; sourceTree = "<group>"; };
 		DFF620BE205546C9003B2E15 /* TouchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchManager.swift; sourceTree = "<group>"; };
 		DFF620C02055493C003B2E15 /* GamePlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayerManager.swift; sourceTree = "<group>"; };
 		DFF620C220557DF7003B2E15 /* GameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				DF24672020381F2D002728B4 /* AppDelegate.swift */,
 				DF24672220381F2D002728B4 /* art.scnassets */,
 				DF24672420381F2D002728B4 /* GameViewController.swift */,
+				DFDB0AE32068024F00DCBFC2 /* GameCameraManager.swift */,
 				DFF620BE205546C9003B2E15 /* TouchManager.swift */,
 				DFF620C02055493C003B2E15 /* GamePlayerManager.swift */,
 				DFF620C220557DF7003B2E15 /* GameConstants.swift */,
@@ -477,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF24675420381F41002728B4 /* GameCenterManager.swift in Sources */,
+				DFDB0AE42068024F00DCBFC2 /* GameCameraManager.swift in Sources */,
 				DF24672520381F2D002728B4 /* GameViewController.swift in Sources */,
 				DFF620C12055493C003B2E15 /* GamePlayerManager.swift in Sources */,
 				DF24672120381F2D002728B4 /* AppDelegate.swift in Sources */,
