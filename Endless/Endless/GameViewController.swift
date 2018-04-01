@@ -12,6 +12,8 @@ import SceneKit
 
 class GameViewController: UIViewController {
     
+    var gameState: GameStateType = GameStateType.tapToPlay
+    
     var mainSceneView: SCNView!
     
     var splashScene: SCNScene!
