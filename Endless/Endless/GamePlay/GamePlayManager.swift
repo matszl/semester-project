@@ -9,9 +9,13 @@
 import Foundation
 
 public enum GameStateType {
-    case tapToPlay
     case playing
     case gameOver
+}
+
+public enum CollisionMask: Int {
+    case player = 0
+    case vehicle = 1
 }
 
 extension GameViewController {

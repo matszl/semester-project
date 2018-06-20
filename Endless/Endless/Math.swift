@@ -12,22 +12,22 @@ import CoreGraphics
 class Math {
     static let shared: Math = Math()
     
-    private let DegreesPerRadians = Float(Double.pi/180.0)
-    private let RadiansPerDegrees = Float(180.0/Double.pi)
+    private let degreesPerRadians = Float(Double.pi/180.0)
+    private let radiansPerDegrees = Float(180.0/Double.pi)
     
     func convertToRadians(angle:Float) -> Float {
-        return angle * self.DegreesPerRadians
+        return angle * self.degreesPerRadians
     }
     
     func convertToRadians(angle:CGFloat) -> CGFloat {
-        return CGFloat(CGFloat(angle) * CGFloat(self.DegreesPerRadians))
+        return CGFloat(CGFloat(angle) * CGFloat(self.degreesPerRadians))
     }
     
     func convertToDegrees(angle:Float) -> Float {
-        return angle * self.RadiansPerDegrees
+        return angle * self.radiansPerDegrees
     }
     
     func convertToDegrees(angle:CGFloat) -> CGFloat {
-        return CGFloat(CGFloat(angle) * CGFloat(self.RadiansPerDegrees))
+        return CGFloat(CGFloat(angle) * CGFloat(self.degreesPerRadians))
     }
 }

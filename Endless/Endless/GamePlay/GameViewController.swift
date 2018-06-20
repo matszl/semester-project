@@ -12,21 +12,31 @@ import SceneKit
 
 class GameViewController: UIViewController {
     
-    var gameState: GameStateType = GameStateType.tapToPlay
+    var gamePlayer: SCNNode!
+    var cameraNode: SCNNode!
+    var cameraFollowNode: SCNNode!
+    var trafficNode: SCNNode!
     
-    var mainSceneView: SCNView!
+    var gameState: GameStateType = GameStateType.playing
+    
+    var mainSceneView: SCNView! {
+        didSet {
+            self.mainSceneView.delegate = self
+        }
+    }
     
     var splashScene: SCNScene!
-    var gameScene: SCNScene!
+    var gameScene: SCNScene! {
+        didSet {
+            self.gameScene.physicsWorld.contactDelegate = self
+        }
+    }
     
-    var gamePlayer: SCNNode!
-    var cameraFollowNode: SCNNode!
     private lazy var initialPlayerPosition: SCNVector3 = {
         return self.gamePlayer.position
     }()
     var centeringHelp: SCNVector3 {
         return self.initialPlayerPosition
-//        return SCNVector3.init(x: 0, y: 0, z: 0)
     }
     
     override var shouldAutorotate: Bool {
@@ -48,12 +58,14 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.setupScenes()
         self.setupNodes()
-        
+        self.setupTraffic()
+        self.setupCollisions()
         self.setupGestures()
     }
     
-    private func setupNodes() {
+    private func setupScenes() {
         self.mainSceneView = SCNView(frame: self.view.bounds)
         self.view.addSubview(self.mainSceneView)
         
@@ -61,7 +73,12 @@ class GameViewController: UIViewController {
         self.gameScene = SCNScene(named: "art.scnassets/GameScene.scn")
         self.mainSceneView.scene = self.gameScene
         
-        self.gamePlayer = self.gameScene.rootNode.childNode(withName: "player", recursively: true)!
-        self.cameraFollowNode = gameScene.rootNode.childNode(withName: "FollowCamera", recursively: true)!
+    }
+    
+    private func setupNodes() {
+        self.gamePlayer = self.gameScene.rootNode.childNode(withName: "suv", recursively: true)!
+        self.cameraNode = self.gameScene.rootNode.childNode(withName: "camera", recursively: true)!
+        self.cameraFollowNode = self.gameScene.rootNode.childNode(withName: "FollowCamera", recursively: true)!
+        self.trafficNode = self.gameScene.rootNode.childNode(withName: "Traffic", recursively: true)!
     }
 }

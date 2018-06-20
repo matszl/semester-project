@@ -31,19 +31,19 @@ class GameConstants {
     }()
     
     lazy var moveLeftAction: SCNAction = {
-        return SCNAction.moveBy(x: 0, y: 0, z: 1.0, duration: self.duration)
+        return SCNAction.moveBy(x: -1, y: 0, z: 0, duration: self.duration)
     }()
     
     lazy var moveRightAction: SCNAction = {
-        return SCNAction.moveBy(x: 0, y: 0, z: -1.0, duration: self.duration)
+        return SCNAction.moveBy(x: 1, y: 0, z: 0, duration: self.duration)
     }()
     
     lazy var moveForwardAction: SCNAction = {
-        return SCNAction.moveBy(x: -1.0, y: 0, z: 0, duration: self.duration)
+        return SCNAction.moveBy(x: 0, y: 0, z: -1, duration: self.duration)
     }()
     
     lazy var moveBackwardAction: SCNAction = {
-        return SCNAction.moveBy(x: 1.0, y: 0, z: 0, duration: self.duration)
+        return SCNAction.moveBy(x: 0, y: 0, z: 1, duration: self.duration)
     }()
     
     lazy var turnLeftAction: SCNAction = {
